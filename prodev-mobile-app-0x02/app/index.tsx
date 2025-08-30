@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     height: Dimensions.get("window").height,
   },
   companyLogo: {
-    width: 120,
+    width: 100,
     alignItems: "center",
     padding: 20,
     marginBottom: 50,
