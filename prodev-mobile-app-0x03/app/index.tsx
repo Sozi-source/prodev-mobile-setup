@@ -9,9 +9,10 @@ export default function Index() {
         <View style={styles.navGroup}>
           <Ionicons name="arrow-back" size={25}/>
           <Image source={require('@/assets/images/logo.png')}/>
-
-          </View>
-        <Text style={styles.largeText}>Sign in to your</Text>
+        </View >
+        
+        <View style={{flex:1, padding:20}}>
+          <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>Enter your email and password to sign in.</Text>
 
@@ -85,6 +86,7 @@ export default function Index() {
         <View style={styles.subTextGroup}>
           <Text style={styles.subText}>Don't have an account?</Text>
           <Text style={styles.subTextJoin}>Join now</Text>
+        </View>
         </View>
       </SafeAreaView>
     </SafeAreaProvider>    
