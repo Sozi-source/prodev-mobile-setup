@@ -10,9 +10,12 @@ export default function Index() {
           style={styles.background} resizeMode="cover">
             <View>
               <Image source={require("../assets/images/Logo.png")} style={styles.companyLogo}/>
+              
+              <View style={styles.textGroup}>
               <Text style={styles.textLarge}>Find your favorite place here</Text>
               <Text style={styles.textSmall}>The best prices for over 2 </Text>
               <Text style={styles.textSmall}>million properties worldwide</Text>
+              </View>
               
               <View style={styles.buttonGroup}>
               <TouchableOpacity style={styles.button}>
